@@ -2,15 +2,23 @@
     width: 90px;
     height: 90px;
     margin: 10px;
-    /* border-radius: 10px; */
+    display: inline-grid;
+    align-items: center;
+    text-align: center;
 }
 
 .color-val {
-    /* text-align: center; */
-    /* padding: 0; */
     margin: 5px;
-    /* width: 50%; */
     text-align:center;
     font-size:small;
 
+}
+
+.color-hex-code {
+    background: none;
+    border: none;
+    margin: 0;
+    padding: 0;
+    text-wrap:wrap;
+    overflow: hidden;
 }
