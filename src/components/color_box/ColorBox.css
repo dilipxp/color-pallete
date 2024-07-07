@@ -7,6 +7,10 @@
     text-align: center;
 }
 
+.color-box:hover {
+    border-radius: 50%;
+    }
+
 .color-val {
     margin: 5px;
     text-align:center;
